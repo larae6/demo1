@@ -3,6 +3,7 @@ package com.example.demo.entities;
 import lombok.Data;
 
 import java.util.Date;
+import java.util.List;
 
 @Data
 public class TaskEntity {
@@ -10,6 +11,6 @@ public class TaskEntity {
     private String title;
     private String description;
     private Date deadline;
-    private boolean completed; //boolean or Boolean!!
+    private boolean completed;
 
 }
